@@ -157,8 +157,6 @@ void plot_surface(vec3(*f)(vec2,float),vec2 uv0,vec2 uv1,int res){
     glfwMakeContextCurrent(window);
     glEnable(GL_DEPTH_TEST);
     while(!glfwWindowShouldClose(window)){
-        glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
-        glDepthMask(GL_TRUE);
 
         double xpos,ypos;
         glfwGetCursorPos(window,&xpos,&ypos);
@@ -168,6 +166,10 @@ void plot_surface(vec3(*f)(vec2,float),vec2 uv0,vec2 uv1,int res){
         glfwGetFramebufferSize(window,&iwidth,&iheight);
         width=iwidth;
         height=iheight;
+
+        glViewport(0,0,iwidth,iheight);
+        glClear(GL_COLOR_BUFFER_BIT|GL_DEPTH_BUFFER_BIT);
+        glDepthMask(GL_TRUE);
 
         glPushMatrix();
         glScalef(height/width,1,1);
