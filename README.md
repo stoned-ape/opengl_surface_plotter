@@ -64,20 +64,20 @@ int main(void){
 See more examples in main.c.
 
 ## API
-There only one function to be concerned with.
+There is only one function to be concerned with.
 ```c
 void plot_surface(vec3(*f)(vec2,float),vec2 uv0,vec2 uv1,int res);
 ```
 
-* f: A user defined function that maps to parameters to a point on a 3D surface.  
+* f: A user defined function that maps two parameters to a point on a 3D surface.  
 	The library passed the the time of day in seconds in f's second parameter.  
 	This is used for animated plots.
 * uv0: The starting point for parameters u,v.
-* uv1: The endiing point for parameters u,v. 
+* uv1: The ending point for parameters u,v. 
 * res: The vertical/horizontal resolution of the plot.  The number of vertecies is `res*res`.
 
 ## Build Instruction
-You must have visual stdio installed or download `make` and `clang` some other way.
+You must have Visual Studio installed or download `make` and `clang` some other way.
 
 Find the path to your windows .lib files.  In the makefile we have:
 ```bash
@@ -85,7 +85,7 @@ LIBDIR="C:/Program Files (x86)/Windows Kits/10/Lib/10.0.19041.0/um/x64/"
 ```
 This may or may not be correct for your machine.  Your .libs should be in a similar place.
 
-Open a visual studio developer command prompt or run your vcvars64.bat script in some other shell.
+Open a visual studio developer command prompt or run your `vcvars64.bat` script in some other shell.
 This will add `nmake` and `cl` (msvc) to your path.  Run `nmake` to build and `.\a.exe` to run. 
 
 You can also build with `clang` if you have it installed.  Just uncomment the associated lines in the makefile.
