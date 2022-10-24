@@ -114,7 +114,6 @@
     <ClInclude Include="plot_surface.h" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="glfw-3.3.7.bin.win64\docs\html\build_8dox.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\build_guide.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\compat_8dox.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\compat_guide.html" />
@@ -166,24 +165,6 @@
     <None Include="glfw-3.3.7.bin.win64\docs\html\pages.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\quick_8dox.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\quick_guide.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_0.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_1.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_10.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_11.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_2.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_3.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_4.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_5.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_6.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_7.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_8.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_9.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_a.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_b.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_c.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_d.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_e.html" />
-    <None Include="glfw-3.3.7.bin.win64\docs\html\search\all_f.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\search\classes_0.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\search\defines_0.html" />
     <None Include="glfw-3.3.7.bin.win64\docs\html\search\files_0.html" />
