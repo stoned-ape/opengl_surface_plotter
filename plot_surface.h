@@ -13,6 +13,7 @@
 #pragma comment(lib,"user32.lib")
 #pragma comment(lib,"gdi32.lib")
 #pragma comment(lib,"shell32.lib")
+#pragma comment(lib,"glfw-3.3.7.bin.WIN64/lib-vc2019/glfw3_mt.lib")
 
 const float pi=3.141592653589793;
 
