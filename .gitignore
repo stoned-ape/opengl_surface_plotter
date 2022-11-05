@@ -3,3 +3,4 @@ a.out
 *.dSYM 
 *.swp
 .vs
+x64/Debug/
